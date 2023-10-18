@@ -25,7 +25,9 @@ export class Counter extends Component {
   render() {
     return (
       <div className="card m-2 p-4">
-        <h3 className="text-center">Counter: {this.state.counter}</h3>
+        <h3 className="text-center">
+          Class-based counter: {this.state.counter}
+        </h3>
 
         <div className="btn-group" role="group">
           <button
